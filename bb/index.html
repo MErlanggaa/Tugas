@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Body Mass Index</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body> 
+    <h3>APLIKASI BODY MASS INDEX</h3><header>
+    <h4>Aplikasi ini dapat digunakan untuk mengecek apakah berat badan kalian  <br>Sudah ideal atau belum, bisa digunakan untuk laki-laki maupun perempuan</h4>
+        <ul>
+    <li><h4>Berat Badan Satuan (Kilogram) -> Contoh:75</h4>
+    <li><h4>Tinggi Badan Satuan (Meter) -> Contoh : 1.8</h4>
+    </ul> 
+</header>
+    <div>
+       
+        <label for="berat_badan">Masukkan Berat Badan (kg):</label>
+        <input type="number" id="berat_badan" placeholder="Masukkan berat badan dalam kg"/>
+        
+        <label for="tinggi_badan">Masukkan Tinggi Badan (cm):</label>
+        <input type="number" id="tinggi_badan" placeholder="Masukkan tinggi badan dalam cm"/>
+        
+        <button onclick="hitungBMI()">Hitung BMI</button> <br>
+
+    </div>
+    
+    <h3>Body Mass Index (BMI) : <span id="hasil"></span></h3>
+    <h3>Status: <span id="status"></span></h3>
+</body>
+</html>

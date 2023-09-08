@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+  }
+
+  header {
+    text-align: left;
+    font-size: 16.5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 600px; /* Mengatur max-width sesuai dengan div */
+    max-height: 260px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+
+  }
+  
+  h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  h4{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    
+  }
+  
+  span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
